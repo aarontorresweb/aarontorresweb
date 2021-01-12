@@ -83,3 +83,14 @@ function initSlideShow(slideShow) {
 slideShow.addEventListener("click", function () {
   initSlideShow(slideShow);
 });
+
+// For the hamburger menu.
+// https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_mobile_navbar
+function hamburgerMenu() {
+  var x = document.getElementById("nav-links");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
