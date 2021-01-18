@@ -1405,7 +1405,7 @@ table.alt tbody tr td {
   -ms-flex-direction: column;
   flex-direction: column;
   padding: 8em 0 6em 0;
-  background-image: url("../../images/pix.jpg");
+  background-image: url("images/headerBackgroundOne.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -1460,7 +1460,7 @@ table.alt tbody tr td {
 }
 
 #header a:hover {
-  color: #ef6480 !important;
+  color: #0e005a !important;
 }
 
 #header strong,
@@ -1599,6 +1599,7 @@ a {
 /* header */
 
 .header {
+  background-image: url("images/headerBackgroundOne.jpg");
   background-color: #fff;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
@@ -1611,7 +1612,6 @@ a {
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: #fff;
 }
 
 .header li a {
@@ -1619,6 +1619,8 @@ a {
   padding: 20px 20px;
   border-right: 1px solid #f4f4f4;
   text-decoration: none;
+  background-color: rgb(0, 0, 0, 0.1);
+  border-radius: 250px;
 }
 
 .header li a:hover,
@@ -1632,6 +1634,7 @@ a {
   font-size: 2em;
   padding: 10px 20px;
   text-decoration: none;
+  border-radius: 50%;
 }
 
 /* menu */
