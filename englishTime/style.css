@@ -56,6 +56,10 @@ h1 {
   margin-bottom: 10px;
 }
 
+.btn:hover {
+  background-color: #be340e;
+}
+
 #picture {
   border-radius: 20%;
   display: block;
@@ -77,4 +81,8 @@ h1 {
   box-sizing: border-box;
   margin: 20px auto 0;
   background-color: #266150;
+}
+
+#answer-btn:hover {
+  background-color: #0e9953;
 }
